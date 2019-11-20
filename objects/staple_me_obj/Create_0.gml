@@ -1,7 +1,9 @@
-/// @description Insert description here
+/// @description When created, will create target and non-target areas.
 // You can write your code in this editor
 var createTarget;
-//var instNum = instance_number(staple_me_obj);]
-xRange = random_range(staple_me_obj.x, 200);
-yRange = staple_me_obj.y +200;
+var xMax = staple_me_obj.x + 314;
+var yMax = staple_me_obj.y + 468;
+xRange = random_range(staple_me_obj.x, xMax);
+yRange = random_range(staple_me_obj.y, yMax);
 createTarget = instance_create_depth(xRange, yRange, -1000, staple_target_obj);
+instance_create_depth(0,0, 1000, staple_out_target);
