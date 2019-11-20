@@ -6,4 +6,3 @@ var yMax = staple_me_obj.y + 468;
 xRange = random_range(staple_me_obj.x, xMax);
 yRange = random_range(staple_me_obj.y, yMax);
 createTarget = instance_create_depth(xRange, yRange, -1000, staple_target_obj);
-instance_create_depth(0,0, 1000, staple_out_target);
