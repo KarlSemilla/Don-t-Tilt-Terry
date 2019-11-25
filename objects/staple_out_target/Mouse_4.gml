@@ -10,3 +10,10 @@ if (mouse_check_button(mb_left) && position_meeting(mouse_x, mouse_y, staple_out
 if(paperCount < difficultySetting){
 	instance_create_depth(random(1150), random(550), 0, paper_obj);
 }
+else{ 
+	if(pScore >= difficultySetting){
+		room_goto_next()
+	}
+	else
+		room_goto(room_Terry3);
+}
