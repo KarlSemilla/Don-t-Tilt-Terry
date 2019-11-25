@@ -287,6 +287,14 @@
             }
         },
         {
+            "Key": "92f89f25-5351-47a8-af63-72683cb1e2ac",
+            "Value": {
+                "id": "c2b37ea7-c6f9-40ba-9d84-348d4f21104a",
+                "resourcePath": "sprites\\bg_convo\\bg_convo.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "95c35d73-3909-4b68-a4e2-6414e5998303",
             "Value": {
                 "id": "3d737ba8-60e8-464d-a351-64a0726ff521",
@@ -508,6 +516,14 @@
                 "id": "7a72df0d-6df8-4852-839b-f7ae43b731a9",
                 "resourcePath": "options\/mac\/options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f65d8cf9-0bf8-479a-888e-036fb2787b53",
+            "Value": {
+                "id": "95b375a1-3c1a-457f-a63d-540d937cdf6b",
+                "resourcePath": "rooms\\room3\\room3.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
