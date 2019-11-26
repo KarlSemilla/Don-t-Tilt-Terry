@@ -1,3 +1,5 @@
+audio_stop_sound(snd_challenge);
+audio_play_sound(snd_pass, 1, true);
 obj_parent_textbox.name = "Terry";
 obj_parent_textbox.text[0] = "Hm, this looks a little slapdash, but I need this now, so whatever. Don't you have something better to do, MacGrady?!";
 obj_parent_textbox.text[1] = "You breath a sigh of relief as he closed the door and starts shouting about 'an idea they've definitely never heard of before' to the rest of the boardroom."

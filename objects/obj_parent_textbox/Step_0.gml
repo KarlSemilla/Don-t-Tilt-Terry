@@ -9,6 +9,10 @@ if(mouse_check_button_pressed(mb_left)){
 	}
 	else{
 		instance_destroy();
-		room_goto_next();
+		if (room == room_Terry2 || room == room_Terry3){
+				room_goto(room_thank_you);
+		}
+		else
+			room_goto_next();
 	}	
 }
