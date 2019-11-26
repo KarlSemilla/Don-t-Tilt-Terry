@@ -1,5 +1,6 @@
 audio_stop_sound(snd_intro);
-audio_play_sound(snd_challenge, 1, true);
+var music = audio_play_sound(snd_challenge, 1, true);
+audio_sound_set_track_position(music, 87);
 obj_parent_textbox.name = "Terry";
 obj_parent_textbox.text[0] = "Alright MacKinnie, what's it been, 2 months already? Why the hell aren't you out of my studio already? Huh? You're not done til Friday? We'll see about that.";
 obj_parent_textbox.text[1] = "What's the tim-- I have to get to my meeting."
