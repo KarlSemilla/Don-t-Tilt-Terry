@@ -11,7 +11,7 @@ if(paperCount < difficultySetting){
 	instance_create_depth(random(1150), random(550), 0, paper_obj);
 }
 else{ 
-	if(pScore >= difficultySetting){
+	if(pScore >= difficultySetting - 2){
 		room_goto_next()
 	}
 	else

@@ -23,4 +23,4 @@ draw_set_halign(fa_left);
 
 //Draw part of the text
 draw_set_color(c_white);
-draw_text_ext(x+(xBuffer), y+(yBuffer), textPart, stringHeight, boxWidth);
+draw_text_ext(x+(xBuffer) - 14, y+(yBuffer), textPart, stringHeight, boxWidth);

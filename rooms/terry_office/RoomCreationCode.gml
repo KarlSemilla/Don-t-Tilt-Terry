@@ -2,7 +2,7 @@ globalvar paperCount;
 globalvar difficultySetting;
 globalvar pScore;
 paperCount = 0;
-difficultySetting = 5;
+difficultySetting = 7;
 pScore = 0;
 
 xRange = random_range(120, 1152);
